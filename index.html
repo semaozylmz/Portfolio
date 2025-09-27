@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sema-universe</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              semaPurple: '#7e5bef',
+              spaceBlack: '#0b0c10',
+            },
+            animation: {
+              'spin-slow': 'spin 20s linear infinite',
+              'pulse-slow': 'pulse 5s ease-in-out infinite',
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <!-- React buraya bağlanır -->
+    <div id="root"></div>
+
+    <!-- React kodunu başlatan dosya -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
