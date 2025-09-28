@@ -1,3 +1,4 @@
+/* Arka plan yıldızlar */
 .bg-stars {
   background-image: url('/stars.svg'); /* public klasörüne koy */
   background-size: contain;
@@ -5,6 +6,17 @@
   background-repeat: repeat;
   animation: moveStars 60s linear infinite;
 }
+
+/* Responsive düzenleme */
+@media (max-width: 768px) {
+  .bg-stars {
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat;
+  }
+}
+
+/* Yıldızların yumuşak hareketi */
 @keyframes star-float {
   0%   { transform: translateY(0) translateX(0); opacity: 1; }
   25%  { transform: translateY(-3px) translateX(2px); opacity: 0.9; }
@@ -17,16 +29,18 @@
   animation: star-float 6s ease-in-out infinite;
 }
 
-
+/* Arka planın kayması */
 @keyframes moveStars {
   0% { background-position: 0 0; }
   100% { background-position: -1000px 1000px; }
 }
 
+/* Yavaş nabız efekti */
 .animate-pulse-slow {
   animation: pulse 10s ease-in-out infinite;
 }
 
+/* Yavaş dönme efekti */
 @keyframes spin-slow {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -35,6 +49,8 @@
 .animate-spin-slow {
   animation: spin-slow 40s linear infinite;
 }
+
+/* Bulutların yumuşak geçişi */
 @keyframes cloud-float {
   0%   { transform: translateX(0); }
   40%  { transform: translateX(150px); }
@@ -47,11 +63,17 @@
   animation: cloud-float 40s ease-in-out infinite;
 }
 
+/* Sayfa yukarıdan kayarak gelsin */
 @keyframes slide-up {
   from { opacity: 0; transform: translateY(60px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
+.animate-slide-up {
+  animation: slide-up 1s ease-out forwards;
+}
+
+/* Sayfa fade-in efektiyle gelsin */
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
@@ -61,7 +83,26 @@
   animation: fade-in 1s ease-out forwards;
 }
 
+/* Mobil uyumlu padding ve font ayarları */
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
 
-.animate-slide-up {
-  animation: slide-up 1s ease-out forwards;
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .max-w-md {
+    max-width: 100%;
+  }
 }
