@@ -4,7 +4,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
-  animation: moveStars 60s linear infinite;
+  animation: moveStars 50s linear infinite;
   z-index: -1;
   position: absolute;
   top: 0;
@@ -117,7 +117,7 @@
 }
 
 .animate-cloud-float {
-  animation: cloud-float 40s ease-in-out infinite;
+  animation: cloud-float 35s ease-in-out infinite;
 }
 
 /* Sayfa yukarıdan kayarak gelsin */

@@ -48,8 +48,7 @@ function App() {
             <h2 className="text-2xl mb-6">Bilgisayar Mühendisliği Öğrencisi</h2>
             <p className="text-xl leading-relaxed mb-8">
               Yapay zeka, veri bilimi ve frontend teknolojileriyle ilgilenen bir geliştiriciyim.  
-              Teknik altyapımı estetik dokunuşlarla birleştirerek dijital kimliğimi özgün bir evren olarak tasarlıyorum.  
-              Bu portfolyo, hem benim dijital sahnem hem de hayal gücümün kodlanmış hali.
+              Bu portfolyo ise benim dijital sahnem.
             </p>
 
             {/* 4 Buton: Deneyim, Proje, Beceri, Sertifika */}

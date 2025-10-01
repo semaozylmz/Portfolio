@@ -30,8 +30,8 @@ const Sun = () => {
             style={{
                 top: `${cloud.top}%`,
                 left: `${cloud.left}%`,
-                width: `${cloud.size * 1.5}px`, // genişlik artırıldı
-                height: `${cloud.size * 0.5}px`, // yatay form korunuyor
+                width: `${cloud.size * 1.5}px`, 
+                height: `${cloud.size * 0.5}px`, 
                 animationDelay: `${cloud.delay}s`,
                 filter: 'blur(6px)',
                 opacity: 1,
