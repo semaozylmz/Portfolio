@@ -30,7 +30,7 @@ const Sun = () => {
             style={{
                 top: `${cloud.top}%`,
                 left: `${cloud.left}%`,
-                width: `${cloud.size * 1.5}px`, 
+                width: `${cloud.size * 1.5}px`, // genişlik artırıldı
                 height: `${cloud.size * 0.5}px`, 
                 animationDelay: `${cloud.delay}s`,
                 filter: 'blur(6px)',
@@ -44,14 +44,7 @@ const Sun = () => {
 
       {/* Güneş */}
       <div className="absolute top-10 right-10 z-10">
-        <div
-            className="w-32 h-32 rounded-full animate-spin-slow animate-pulse relative"
-
-            style={{
-            backgroundColor: '#fff176', // daha açık sarı (Tailwind'de yellow-300 gibi)
-            boxShadow: '0 0 80px 50px rgba(255, 241, 118, 0.6)', // dışa doğru parlama
-            }}
-        />
+        <div className="sun-core" />
         </div>
 
 

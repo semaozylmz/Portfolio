@@ -4,7 +4,7 @@
   background-size: contain;
   background-position: center;
   background-repeat: repeat;
-  animation: moveStars 50s linear infinite;
+  animation: moveStars 40s linear infinite;
   z-index: -1;
   position: absolute;
   top: 0;
@@ -20,6 +20,12 @@
     background-position: top;
     background-repeat: repeat;
     opacity: 0.5; /* Mobilde yazıyı kapatmaması için şeffaflık */
+  }
+   .sun-core {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 20px 10px rgba(255, 241, 118, 0.4);
+    opacity: 0.5;
   }
 
   section {
@@ -66,12 +72,19 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 150px;
-  height: 150px;
   z-index: -1; /* Yazının altında kalması için */
   pointer-events: none; /* Tıklanabilirliği kapatır */
 }
 
+.sun-core {
+  width: 128px;
+  height: 128px;
+  border-radius: 9999px;
+  background-color: #fff176;
+  box-shadow: 0 0 80px 50px rgba(255, 241, 118, 0.6);
+  animation: spin-slow 40s linear infinite, pulse 10s ease-in-out infinite;
+  position: relative;
+}
 
 /* Yıldızların yumuşak hareketi */
 @keyframes star-float {
