@@ -24,15 +24,6 @@ const Contact = ({ onBack }) => {
             semanrozyilmaz@gmail.com
           </a>
         </p>
-        <p>
-          <strong>Telefon:</strong>{' '}
-          <a
-            href="tel:+905061347089"
-            className="text-blue-500 underline hover:text-blue-700 transition-colors duration-200"
-          >
-            +90 506 134 70 89
-          </a>
-        </p>
         <p><strong>Lokasyon:</strong> İstanbul, Türkiye</p>
       </div>
 
