@@ -7,7 +7,7 @@ const Contact = ({ onBack }) => {
 
       <p className="text-lg mb-6 max-w-2xl">
         Projeleriniz hakkında konuşmak veya beraber çalışma fırsatları için benimle iletişime geçin.  
-        Birlikte harika projeler yaratmaya başlayalım!  
+        Birlikte harika projeler yaratmaya başlayalım!
         <br /><br />
         Yeni projeler, iş birlikleri veya sadece merhaba demek için...  
         Her türlü mesajınıza açığım. En kısa sürede size dönüş yapacağım.
