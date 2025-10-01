@@ -5,6 +5,12 @@
   background-position: center;
   background-repeat: repeat;
   animation: moveStars 60s linear infinite;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Responsive düzenleme */
@@ -13,8 +19,50 @@
     background-size: cover;
     background-position: top;
     background-repeat: repeat;
+    opacity: 0.5; /* Mobilde yazıyı kapatmaması için şeffaflık */
+  }
+
+  section {
+    padding: 1rem;
+    font-size: 0.95rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .max-w-md {
+    max-width: 100%;
+  }
+  .sun {
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    right: 10px;
+    opacity: 0.5;
   }
 }
+
+.sun {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  z-index: -1; /* Yazının altında kalması için */
+  pointer-events: none; /* Tıklanabilirliği kapatır */
+}
+
 
 /* Yıldızların yumuşak hareketi */
 @keyframes star-float {
@@ -82,27 +130,7 @@
 .animate-fade-in {
   animation: fade-in 1s ease-out forwards;
 }
-
-/* Mobil uyumlu padding ve font ayarları */
-@media (max-width: 768px) {
-  section {
-    padding: 1rem;
-    font-size: 0.95rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr !important;
-  }
-
-  .max-w-md {
-    max-width: 100%;
-  }
+section, .content, .text-wrapper {
+  position: relative;
+  z-index: 1;
 }
