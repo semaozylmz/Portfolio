@@ -53,10 +53,8 @@
     z-index: -1; 
   }
   footer {
-    position: relative !important; /* Fixed yerine relative */
-    bottom: auto !important;
-    margin-top: 2rem;
-    justify-content: center; /* Ortalansın */
+    bottom: 20px;
+    padding-bottom: 1rem;
   }
 
   main {

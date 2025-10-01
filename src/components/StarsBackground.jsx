@@ -4,7 +4,7 @@ const StarsBackground = () => {
   const [stars, setStars] = useState([]);
 
   useEffect(() => {
-    const count = 300;
+    const count = 350;
     const tempStars = [];
 
     for (let i = 0; i < count; i++) {
