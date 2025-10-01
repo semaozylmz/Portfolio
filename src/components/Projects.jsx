@@ -16,7 +16,7 @@ const projects = [
     updated: '28 Mayıs 2025',
   },
   {
-    title: 'Minimal ToDo App',
+    title: 'Minimal To Do App',
     description: 'Basit ve sade bir yapılacaklar listesi uygulaması. JavaScript ile geliştirilmiştir.',
     tech: ['JavaScript'],
     github: 'https://github.com/semaozylmz/MinimalToDoApp',
@@ -24,7 +24,7 @@ const projects = [
   },
   {
     title: 'Personal Portfolio',
-    description: 'Kişisel portfolyo sitem. React ve Tailwind ile geliştirilmiş, deneyimsel bir dijital evren.',
+    description: 'Tailwind ve React ile geliştirdiğim ilk kişisel portföy web sitem.',
     tech: ['JavaScript', 'React', 'Tailwind'],
     github: 'https://github.com/semaozylmz/PersonalPortfolio',
     updated: '22 Mayıs 2025',
@@ -78,20 +78,14 @@ const projects = [
     github: 'https://github.com/semaozylmz/NovaBlogWebsite',
     updated: '8 Şubat 2025',
   },
-  {
-    title: 'Online Time Tracker',
-    description: 'Dart ile geliştirilen zaman takip uygulaması. (Private repo)',
-    tech: ['Dart'],
-    github: '',
-    updated: '5 Şubat 2025',
+   {
+    title: 'Portfolio',
+    description: 'React ve Tailwind CSS kullanarak geliştirdiğim güncellenmiş kişisel portföy web sitesi.',
+    tech: ['React', 'Tailwind CSS', 'JavaScript'],
+    github: 'https://github.com/semaozylmz/Portfolio',
+    updated: '30 Eylül 2025',
   },
-  {
-    title: 'Java Project Homework',
-    description: 'Java ile hazırlanmış temel ödev projesi.',
-    tech: ['Java'],
-    github: 'https://github.com/semaozylmz/JavaProjectHomeWork',
-    updated: '5 Şubat 2025',
-  },
+
 ];
 
 const Projects = ({ onBack }) => {

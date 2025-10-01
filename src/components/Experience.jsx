@@ -9,32 +9,32 @@ const experiences = [
   {
     title: 'Teknofest 2025 – Gönüllü',
     date: 'Ağustos 2025 - Eylül 2025',
-    description: 'Teknofest Girişim Merkezi’nde gönüllü olarak görev aldım. Girişimcilik ekosistemine katkı sağlamak ve teknoloji odaklı projeleri desteklemek amacıyla etkinlik süresince aktif rol üstlendim.',
+    description: 'Teknofest Girişim Merkezi’nde gönüllü olarak görev aldım.',
   },
   {
     title: 'Take Off – Gönüllü Çalışkan',
     date: 'Temmuz 2025 - Devam ediyor',
-    description: 'Veri bilimi alanında gönüllü olarak çalışıyorum. Etkinlik süresince sahne koordinasyonunda görev alarak teknik ekiplerle iş birliği içinde sahne akışını yönettim.',
+    description: 'Sahne kısmında gönüllü olarak görev alıyorum.',
   },
   {
     title: 'Social Office TNC Group – IT Gönüllü Stajyeri',
     date: 'Ağustos 2025 - Eylül 2025',
-    description: 'TNC Group bünyesinde IT departmanında gönüllü stajyer olarak görev aldım. Dijital altyapı süreçlerine destek verdim ve teknik dokümantasyon hazırlıklarında yer aldım.',
+    description: 'TNC Group bünyesinde IT departmanında gönüllü stajyer olarak görev aldım.',
   },
   {
     title: 'T3 Vakfı – Gönüllü',
     date: 'Haziran 2025 - Devam ediyor',
-    description: 'T3 Vakfı bünyesinde gönüllü olarak çeşitli teknoloji ve eğitim odaklı etkinliklerde görev alıyorum. Gençlere ilham veren projelerde destek sağlıyorum.',
+    description: 'T3 Vakfı bünyesinde gönüllü olarak çeşitli etkinliklerde görev alıyorum.',
   },
   {
     title: 'Etkin Kampüs – Temsilci',
     date: 'Eylül 2025 - Devam ediyor',
-    description: 'Etkin Kampüs’te üniversite temsilcisi olarak görev alıyorum. Öğrenci topluluklarıyla iş birliği içinde etkinlikler düzenliyor, kampüs içi iletişimi güçlendiriyorum.',
+    description: 'Etkin Kampüs’te kampüs temsilcisi olarak görev alıyorum.',
   },
   {
     title: 'Genesis Network – Eğitmen',
     date: 'Eylül 2025',
-    description: 'Genesis Network kapsamında dönemsel olarak eğitmenlik yaptım. Gençlere teknoloji ve girişimcilik alanında mentorluk sağlayarak deneyimlerimi aktardım.',
+    description: 'Genesis Network kapsamında dönemsel olarak eğitmenlik yapıyorum.',
   },
 ];
 
