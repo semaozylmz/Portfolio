@@ -113,7 +113,7 @@ function App() {
 
       {/* Sosyal Bağlantılar sadece ana sahnede görünür */}
       {activeSection === 'home' && (
-        <footer className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-6 z-40">
+        <footer className="bottom-5 left-1/2 transform -translate-x-1/2 flex gap-6 z-40 fixed md:absolute md:bottom-5">
           <a
             href="https://github.com/semaozylmz?tab=followers"
             target="_blank"

@@ -52,6 +52,14 @@
     opacity: 0.4;
     z-index: -1; 
   }
+  footer {
+    bottom: 20px;
+    padding-bottom: 1rem;
+  }
+
+  main {
+    padding-bottom: 6rem; /* Footer’a çarpmasın diye içerik altına boşluk */
+  }
 }
 
 .sun {
